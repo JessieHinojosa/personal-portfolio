@@ -1,5 +1,5 @@
-import BenefitsBanner from './components/BenefitsBanner';
-import Hero from './components/Hero';
+import About from "./pages/About";
+import Landing from "./pages/Landing";
 
 
 function App() {
@@ -8,8 +8,8 @@ function App() {
       bg-black text-white 
       py-mobile-y-pg-padding 
       ">
-      <Hero />
-      <BenefitsBanner />
+        <Landing />
+        <About />
     </div>
   );
 }

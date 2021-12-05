@@ -20,3 +20,6 @@ code {
 .nav-menu {
 	transition: all 2s linear 1s;
 }
+.about-paragraphs p {
+	text-indent: 5%;
+}

@@ -10,7 +10,7 @@ const hero = () => {
             <Header />
             <h1 className='
               relative z-10
-              text-center text-purp font-secondary text-pg-heading
+              text-center text-purp font-secondary text-hero-heading
               mt-mobile-y-margin-from-header 
               '>Building Intuitive Web<br />Applications</h1>
             <img src={ProfilePic} 
