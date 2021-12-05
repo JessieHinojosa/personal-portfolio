@@ -9,7 +9,7 @@ const Nav = () => {
     }
     let menu = 
       <aside className={`
-      nav-menu absolute top-0 left-0 w-3/4 h-full bg-grey text-center 
+      nav-menu fixed top-0 left-0 w-3/4 h-full bg-grey text-center 
       px-mobile-x-pg-padding py-mobile-y-pg-padding z-50
       `}
         onClick={()=> {

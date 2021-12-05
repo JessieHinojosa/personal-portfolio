@@ -1,3 +1,4 @@
+import BenefitsBanner from './components/BenefitsBanner';
 import Hero from './components/Hero';
 
 
@@ -5,9 +6,10 @@ function App() {
   return (
     <div className="
       bg-black text-white 
-        px-mobile-x-pg-padding py-mobile-y-pg-padding
+      py-mobile-y-pg-padding 
       ">
       <Hero />
+      <BenefitsBanner />
     </div>
   );
 }

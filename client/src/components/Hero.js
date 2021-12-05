@@ -2,11 +2,11 @@ import React from 'react'
 import Header from './Header'
 import ProfilePic from '../assets/images/profile-pic.png';
 import TriangleBg from '../assets/images/triangle-bg.svg';
-import HeroButton from './HeroButton';
+import HeroButton from './buttons/HeroButton';
 
 const hero = () => {
     return (
-        <section className=''>
+        <section className='px-mobile-x-pg-padding'>
             <Header />
             <h1 className='
               relative z-10

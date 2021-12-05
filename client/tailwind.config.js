@@ -17,6 +17,7 @@ module.exports = {
     'nav-menu-subheading': '12px',
     'pg-heading': '29px',
     'mobile-lg-button': '14px',
+    'mobile-sm': '7px',
    },
    borderRadius: {
     'none': '0',
@@ -29,9 +30,12 @@ module.exports = {
         'mobile-y-pg-padding': '0.75rem',
         'mobile-y-margin-from-header': '2.75rem',
         'mobile-y-general-margin': '2.1875rem',
-        'mobile-triangle-position': '7.75rem',
+        'mobile-triangle-position': '6rem',
         'mobile-lg-button-padding': '.143em',
         'mobile-lg-button-w': '7.563rem',
+        'mobile-benefit-banner-h': '5.5rem',
+        'mobile-benefit-y-padding': '0.4375rem',
+        'mobile-infinity-w': '5.375rem',
 
       },
       zIndex: {
