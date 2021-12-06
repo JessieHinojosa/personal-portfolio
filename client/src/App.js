@@ -1,5 +1,6 @@
 import About from "./pages/About";
 import Landing from "./pages/Landing";
+import Portfolio from "./pages/Portfolio";
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       ">
         <Landing />
         <About />
+        <Portfolio />
     </div>
   );
 }

@@ -3,7 +3,8 @@ import polygon from '../assets/images/polygon.png'
 
 const ExploringDivider = () => {
     return (
-        <aside className='my-24'>
+        <aside className='h-32 my-20'>
+        
           <h3 className='relative text-mobile-lg-button font-tertiary text-center z-10'>Technologies Currently Exploring</h3>
           <div className='flex justify-evenly mt-2'>
               <ul className='font-secondary text-center text-mobile-exploring-text ml-2 relative z-10'>
