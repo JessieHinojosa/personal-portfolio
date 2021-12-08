@@ -1,5 +1,5 @@
 import React from 'react'
-import polygon from '../assets/images/polygon.png'
+import polygon from '../assets/images/sm-mobile/polygon.png'
 
 const ExploringDivider = () => {
     return (

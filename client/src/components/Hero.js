@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Header'
-import ProfilePic from '../assets/images/profile-pic.png';
-import TriangleBg from '../assets/images/triangle-bg.svg';
+import ProfilePic from '../assets/images/sm-mobile/profile-pic.png';
+import TriangleBg from '../assets/images/sm-mobile/triangle-bg.svg';
 import HeroButton from './buttons/HeroButton';
 
 const hero = () => {
