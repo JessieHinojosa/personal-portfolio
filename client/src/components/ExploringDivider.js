@@ -3,7 +3,7 @@ import polygon from '../assets/images/sm-mobile/polygon.png'
 
 const ExploringDivider = () => {
     return (
-        <aside className='h-32 my-20'>
+        <aside className='h-32 mt-24 mb-8'>
         
           <h3 className='relative text-mobile-lg-button font-tertiary text-center z-10'>Technologies Currently Exploring</h3>
           <div className='flex justify-evenly mt-2'>

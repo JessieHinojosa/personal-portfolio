@@ -1,11 +1,12 @@
 import React from 'react'
+import SmButton from '../components/buttons/SmButton'
 import { ProjectData } from '../components/project-data/ProjectData'
 
 
 
 const Portfolio = () => {
     return (
-        <section className='w-mobile-paragraph-w mx-auto'>
+        <section className='w-mobile-paragraph-w mx-auto pt-12' id='portfolio'>
             <div className='text-center font-primary text-pg-heading'>
                 <h2>Featured Projects</h2>
                 <p className='
@@ -19,8 +20,9 @@ const Portfolio = () => {
             <div className='card-canvas -mx-4'>
                 {ProjectData.map((card, index) => {
                     return (
+                     <div className='mb-6' key={index}>
                         <div className='
-                          outer-card rounded-button shadow-md mb-6
+                          outer-card rounded-button shadow-md
                         ' key={index} >
                             <div className='inner-card relative z-0 border-2 rounded-t-button border-dark-black'>
                                 <img src={card.image} className='rounded-t-button ' key={index} alt='application page'/>
@@ -61,6 +63,29 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className='
+                          flex justify-between px-10
+                        '>
+                            <SmButton 
+                                buttonClass='
+                                bg-baby-blue w-mobile-sm-button-w text-mobile-sm-button 
+                                text-center py-0.25 rounded-button mx-auto mt-4 font-tertiary 
+                                text-dark-black 
+                                '
+                                buttonText='Visit Github'
+                                url={card.repoUrl}
+                            />
+                            <SmButton 
+                                buttonClass='
+                                bg-baby-blue w-mobile-sm-button-w text-mobile-sm-button 
+                                text-center py-0.25 rounded-button mx-auto mt-4 font-tertiary text-dark-black
+                                '
+                                buttonText='Visit Site'
+                                url={card.deployedUrl}
+
+                            />
+                       </div>
+                    </div>
                     )
                 })}
                 

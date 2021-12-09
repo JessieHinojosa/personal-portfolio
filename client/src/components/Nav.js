@@ -17,15 +17,15 @@ const Nav = () => {
         }}
       >
         <div className='mt-12'>
-        <h2 className='font-primary text-nav-menu-heading'>Jessie Hinojosa</h2>
+        <h2 className='font-primary text-nav-menu-heading'><a href='#home'>Jessie Hinojosa</a></h2>
         <h3 className='font-secondary text-nav-menu-subheading'>Full-Stack Developer</h3>
         <ul className='
           mt-8 text-left font-secondary 
         '>
-            <li>Background</li>
-            <li>Projects</li>
-            <li>Connect</li>
-            <li>Qualifications</li>
+            <li><a href='#about'>Background</a></li>
+            <li><a href='#portfolio'>Projects</a></li>
+            <li><a href='#connect'>Connect</a></li>
+            <li><a href='#resume'>Qualifications</a></li>
         </ul>
         </div>
       </aside>

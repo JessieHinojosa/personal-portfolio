@@ -6,7 +6,7 @@ import brickWall from '../assets/images/icons/brick-wall.png'
 const BenefitsBanner = () => {
     return (
         <section className='
-           bg-grey h-mobile-benefit-banner-h w-full my-mobile-y-general-margin
+           bg-grey h-mobile-benefit-banner-h w-full mt-mobile-y-general-margin
            flex justify-evenly py-mobile-benefit-y-padding
            '>
              <aside className='w-mobile-infinity-w'>

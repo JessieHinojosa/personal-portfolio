@@ -4,7 +4,7 @@ import ExploringDivider from '../components/ExploringDivider'
 
 const About = () => {
     return (
-        <section>
+        <section className='pt-12' id='about'>
             <h2 className='text-center font-primary text-pg-heading leading-5'>
                 Meet the developer<br/>
                 <span className='font-secondary text-mobile-lg-button'>Full-Stack Enthusiest</span>

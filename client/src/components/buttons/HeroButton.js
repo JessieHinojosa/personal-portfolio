@@ -7,7 +7,7 @@ const HeroButton = () => {
           relative mx-auto text-center text-dark-black font-tertiary
           text-mobile-lg-button rounded-button
         '>
-            View My Work
+            <a href='#portfolio' >View My Work</a>
         </div>
     )
 }
