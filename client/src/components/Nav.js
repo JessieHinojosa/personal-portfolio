@@ -50,7 +50,6 @@ const Nav = () => {
              />
             {toggleMenu && menuMask}
             {toggleMenu && menu }
-            
         </nav>
     )
 }

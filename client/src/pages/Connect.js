@@ -2,6 +2,7 @@ import React from 'react'
 import {NetworkData} from '../components/NetworkData/NetworkData';
 import SmButton from '../components/buttons/SmButton';
 import ConnectionWeb from '../assets/images/sm-mobile/connection-diagram.png';
+import ContactForm from '../components/ContactForm';
 
 
 const Connect = () => {
@@ -58,8 +59,9 @@ const Connect = () => {
         
                 )
             })}
-            
         </div>
+        <h3 className='text-secondary text-nav-heading text-center mb-4'>Send a Quick Message</h3>
+        <ContactForm />
         </section>
     )
 }
