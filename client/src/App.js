@@ -2,6 +2,7 @@ import About from "./pages/About";
 import Connect from "./pages/Connect";
 import Landing from "./pages/Landing";
 import Portfolio from "./pages/Portfolio";
+import Resume from "./pages/Resume";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <About />
         <Portfolio />
         <Connect />
+        <Resume />
     </div>
   );
 }
