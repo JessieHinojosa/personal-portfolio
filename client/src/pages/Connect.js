@@ -2,12 +2,15 @@ import React from 'react'
 import {NetworkData} from '../components/NetworkData/NetworkData';
 import SmButton from '../components/buttons/SmButton';
 import ConnectionWeb from '../assets/images/sm-mobile/connection-diagram.png';
-import ContactForm from '../components/ContactForm';
 
 
 const Connect = () => {
     return (
-        <section className='w-mobile-paragraph-w mx-auto mt-8 pt-12' id='connect'>
+        <section className='
+          w-mobile-paragraph-w mx-auto mt-8 pt-12
+          mobile:w-mobile-lg-paragraph-w
+        ' 
+        id='connect'>
             <div className='text-center font-primary text-pg-heading relative z-10'>
                 <h2>Connect with Me</h2>
                 <p className='
@@ -24,12 +27,14 @@ const Connect = () => {
                  className='
                    absolute top-mobile-bg-topConnectWeb-top-position right-0
                    z-0
+                   mobile:top-mobile-lg-bg-topConnectWeb-top-position
             '/>
             <img src={ConnectionWeb} 
                  alt='connection web' 
                  className='
                    absolute top-mobile-bg-bottomConnectWeb-top-position left-0
                    z-0 rotate-180
+                   mobile:top-mobile-lg-bg-bottomConnectWeb-top-position
             '/>
             <div className='card-canvas'>
             {NetworkData.map((item, index) => {
@@ -42,8 +47,12 @@ const Connect = () => {
                       <div className='
                         flex flex-wrap justify-center pb-2 pt-7 
                         shadow-md rounded-button bg-black
+                        
                       '>
-                        <p className='url w-full text-center text-tertiary'>
+                        <p className='
+                          w-full text-center text-tertiary
+                          mobile:text-nav-heading
+                        '>
                           {item.username}
                         </p>
                         <SmButton
@@ -51,6 +60,7 @@ const Connect = () => {
                         bg-baby-blue w-mobile-sm-button-w text-mobile-sm-button 
                         text-center py-0.25 rounded-button mx-auto mt-2 font-tertiary 
                         text-dark-black 
+                        mobile:py-0.5 mobile:text-mobile-button
                         '
                         buttonText={`Visit ${item.name}`}
                         url={item.src} />
@@ -60,8 +70,6 @@ const Connect = () => {
                 )
             })}
         </div>
-        <h3 className='text-secondary text-nav-heading text-center mb-4'>Send a Quick Message</h3>
-        <ContactForm />
         </section>
     )
 }

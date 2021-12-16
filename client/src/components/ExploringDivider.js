@@ -1,9 +1,11 @@
 import React from 'react'
-import polygon from '../assets/images/sm-mobile/polygon.png'
 
 const ExploringDivider = () => {
     return (
-        <aside className='h-32 mt-24 mb-8'>
+        <aside className='
+          h-32 mt-24 mb-8 bg-polygonLgBg bg-contain bg-center bg-no-repeat
+          mobile:bg-polygonLgBg
+        '>
         
           <h3 className='relative text-mobile-lg-button font-tertiary text-center z-10'>Technologies Currently Exploring</h3>
           <div className='flex justify-evenly mt-2'>
@@ -21,9 +23,6 @@ const ExploringDivider = () => {
                   <li>Apollo</li>
               </ul>
           </div>  
-          <img src={polygon} 
-               alt='polygon background' 
-               className='relative bottom-36 z-0'/>
         </aside>
     )
 }

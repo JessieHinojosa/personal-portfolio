@@ -5,7 +5,9 @@ const MdButton = (props) => {
         <div className={props.buttonClass}
         
         >
+            <a href={props.url}>
             {props.buttonText}
+            </a>
         </div>
     )
 }

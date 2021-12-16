@@ -17,10 +17,17 @@ const Nav = () => {
         }}
       >
         <div className='mt-12'>
-        <h2 className='font-primary text-nav-menu-heading'><a href='#home'>Jessie Hinojosa</a></h2>
-        <h3 className='font-secondary text-nav-menu-subheading'>Full-Stack Developer</h3>
+        <h2 className='
+            font-primary text-nav-menu-heading
+            mobile:text-nav-menu-lg-heading
+        '><a href='#home'>Jessie Hinojosa</a></h2>
+        <h3 className='
+           font-secondary text-nav-menu-subheading
+           mobile:text-mobile-lg-button
+        '>Full-Stack Developer</h3>
         <ul className='
           mt-8 text-left font-secondary 
+          mobile:text-nav-heading
         '>
             <li><a href='#about'>Background</a></li>
             <li><a href='#portfolio'>Projects</a></li>
@@ -44,12 +51,22 @@ const Nav = () => {
         '>
              <FontAwesomeIcon 
               icon={faBars} 
-              className='h-full w-full'
+              className='h-full w-full desktop:invisible'
               size='lg'
               onClick={() => setToggleMenu(!toggleMenu)}
              />
             {toggleMenu && menuMask}
             {toggleMenu && menu }
+            {/* desktop navigation */}
+        <ul className='invisible font-tertiary absolute -top-20
+           desktop:visible desktop:flex desktop:relative desktop:top-0
+           desktop:my-auto text-nav-heading
+        '>
+            <li><a href='#about'>Background</a></li>
+            <li className='ml-6'><a href='#portfolio'>Projects</a></li>
+            <li className='ml-6'><a href='#connect'>Connect</a></li>
+            <li className='ml-6'><a href='#resume'>Qualifications</a></li>
+        </ul>
         </nav>
     )
 }

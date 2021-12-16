@@ -1,13 +1,22 @@
 import React from 'react'
+import BackgroundPaper from '../assets/images/sm-mobile/background-paper.png'
 
 const Resume = () => {
     return (
-        <section className='pt-12 w-mobile-paragraph-w mx-auto' id='resume'>
+        <section className='
+          pt-12 w-mobile-paragraph-w mx-auto
+          mobile:w-mobile-lg-paragraph-w
+          ' 
+                 id='resume'>
             <div>
-                <h2 className='text-center font-primary text-pg-heading'>Qualifications</h2>
+                <h2 className='
+                  text-center font-primary text-pg-heading
+                  mobile:text-nav-menu-heading
+                '>Qualifications</h2>
                 <p className='
                 text-secondary text-mobile-paragraph text-center 
                 my-mobile-margin-from-pg-heading
+                mobile:text-mobile-exploring-text
                 '>
                     I believe all experience is relavent and valuable. 
                     As I build my resume, I hope that I continually add 
@@ -15,10 +24,16 @@ const Resume = () => {
                 </p>
             </div>
             <div className='text-center'>
-                <h3 className='font-primary mobile-lg-button my-2'>
+                <h3 className='
+                  font-primary mobile-lg-button my-2
+                  mobile:text-nav-menu-heading
+                '>
                     Summary
                 </h3>
-                <p className='font-secondary text-mobile-button'>
+                <p className='
+                  font-secondary text-mobile-button
+                  mobile:text-mobile-exploring-text
+                '>
                    Full-Stack Web Developer utilizing full-stack technology to build a 
                    solid foundation, to develop systems that give users a more intuitive 
                    and engaging experience with web applications. Highlighting the ability 
@@ -32,29 +47,62 @@ const Resume = () => {
                 </p>
             </div>
             <div className='text-center'>
-                <h3 className='font-primary mobile-lg-button my-3'>
+                <h3 className='
+                  font-primary mobile-lg-button my-3
+                  mobile:text-nav-menu-heading
+                '>
                   Technical Skills
                 </h3>
 
-                <h4 className='font-primary text-nav-menu-subheading'>Languages</h4>
-                <p className='text-mobile-button font-secondary mb-2'>HTML, CSS, JavaScript, GraphQL, MySQL</p>
+                <h4 className='
+                  font-primary text-nav-menu-subheading
+                  mobile:text-mobile-lg-button
+                '>Languages</h4>
+                <p className='
+                  text-mobile-button font-secondary mb-2
+                  mobile:text-mobile-exploring-text
+                '>HTML, CSS, JavaScript, GraphQL, MySQL</p>
 
-                <h4 className='font-primary text-nav-menu-subheading'>Frameworks</h4>
-                <p className='text-mobile-button font-secondary mb-2'>Express, Handlebars.js, jQuery</p>
+                <h4 className='
+                  font-primary text-nav-menu-subheading
+                  mobile:text-mobile-lg-button'>Frameworks</h4>
+                <p className='
+                  text-mobile-button font-secondary mb-2
+                  mobile:text-mobile-exploring-text
+                '>Express, Handlebars.js, jQuery</p>
 
-                <h4 className='font-primary text-nav-menu-subheading'>Libraries</h4>
-                <p className='text-mobile-button font-secondary mb-2'>React, Redux, Apollo Client</p>
+                <h4 className='
+                  font-primary text-nav-menu-subheading
+                  mobile:text-mobile-lg-button'>Libraries</h4>
+                <p className='
+                  text-mobile-button font-secondary mb-2
+                  mobile:text-mobile-exploring-text
+                '>React, Redux, Apollo Client</p>
 
-                <h4 className='font-primary text-nav-menu-subheading'>Other</h4>
-                <p className='text-mobile-button font-secondary'>Node.js, MongoDB, Sequelize</p>
+                <h4 className='
+                  font-primary text-nav-menu-subheading
+                  mobile:text-mobile-lg-button'>Other</h4>
+                <p className='
+                  text-mobile-button font-secondary
+                  mobile:text-mobile-exploring-text
+                '>Node.js, MongoDB, Sequelize</p>
             </div>
-            <div className=''>
-                <h3 className='font-primary mobile-lg-button my-3 text-center'>
+            <div className='relative z-10'>
+                <h3 className='
+                  font-primary mobile-lg-button my-3 text-center
+                  mobile:text-nav-menu-heading
+                '>
                   Experience
                 </h3>
                 <div className='flex justify-between'>
-                  <h4 className='text-mobile-button font-primary'>US Water Services Corporation</h4>
-                  <h4 className='text-mobile-button font-primary'>2021-Present</h4>
+                  <h4 className='
+                    text-mobile-button font-primary
+                    mobile:text-mobile-exploring-text
+                  '>US Water Services Corporation</h4>
+                  <h4 className='
+                    text-mobile-button font-primary
+                    mobile:text-mobile-exploring-text
+                '>2021-Present</h4>
                 </div>
                 <div className='flex justify-between'>
                   <h4 className='text-mobile-button font-primary'>Wastewater Plant Operation</h4>
@@ -71,8 +119,14 @@ const Resume = () => {
                     </p>
                 </div>
                 <div className='flex justify-between'>
-                  <h4 className='text-mobile-button font-primary'>Triangle House LLC</h4>
-                  <h4 className='text-mobile-button font-primary'>2021-2021</h4>
+                  <h4 className='
+                    text-mobile-button font-primary
+                    mobile:text-mobile-exploring-text
+                '>Triangle House LLC</h4>
+                  <h4 className='
+                    text-mobile-button font-primary
+                    mobile:text-mobile-exploring-text
+                '>2021-2021</h4>
                 </div>
                 <div className='flex justify-between'>
                   <h4 className='text-mobile-button font-primary'>Assembly Line Technician </h4>
@@ -87,8 +141,14 @@ const Resume = () => {
                     </p>
                 </div>
                 <div className='flex justify-between'>
-                  <h4 className='text-mobile-button font-primary'>State of Florida</h4>
-                  <h4 className='text-mobile-button font-primary'>2018-2021</h4>
+                  <h4 className='
+                    text-mobile-button font-primary
+                    mobile:text-mobile-exploring-text
+                '>State of Florida</h4>
+                  <h4 className='
+                    text-mobile-button font-primary
+                    mobile:text-mobile-exploring-text
+                '>2018-2021</h4>
                 </div>
                 <div className='flex justify-between'>
                   <h4 className='text-mobile-button font-primary'>GED Tutor </h4>
@@ -104,14 +164,29 @@ const Resume = () => {
                         Key learning experience: Breakdown curriculum for unconventional learner
                     </p>
                 </div>
-                <div>
-                <h3 className='font-primary mobile-lg-button my-2 text-center'>
+                <div className='
+                  
+                '>
+                <h3 className='
+                  font-primary mobile-lg-button my-2 text-center
+                  mobile:text-nav-menu-heading
+                '>
                     Education
                 </h3>
-                <p className='text-mobile-paragraph font-secondary text-center'>UCF Coding Bootcamp</p>
-                <p className='text-mobile-paragraph font-secondary text-center'>University of Central Florida, Orlando, FL</p>
+                <p className='
+                  text-mobile-paragraph font-secondary text-center
+                  mobile:text-mobile-exploring-text
+                '>UCF Coding Bootcamp</p>
+                <p className='
+                  text-mobile-paragraph font-secondary text-center
+                  mobile:text-mobile-exploring-text
+                '>University of Central Florida, Orlando, FL</p>
                 </div>
             </div>
+            <img src={BackgroundPaper} alt='blank paper' className='
+               absolute left-0 top-mobile-bg-paper-top-position z-0
+               mobile:top-mobile-lg-bg-paper-top-position
+               '/>
         </section>
     )
 }
