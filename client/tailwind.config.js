@@ -41,7 +41,8 @@ module.exports = {
     'desktop-heading': '30px',
     'desktop-paragraph': '17px',
     'desktop-lg-paragraph': '21px',
-    'base': '16px'
+    'base': '16px',
+    'project-detail': '15px'
 
 
    },
@@ -99,6 +100,8 @@ module.exports = {
         'desktop-heading-w': '40rem',
         'desktop-bg-square-top': '88rem',
         'desktop-bg-square-h': '40rem',
+        'desktop-bg-topConnectWeb-top': '270rem',
+        'desktop-bg-bottomConnectWeb-top': '300rem',
       },
       zIndex: {
         '-10': '-10',

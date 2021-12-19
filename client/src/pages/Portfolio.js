@@ -31,6 +31,7 @@ const Portfolio = () => {
             desktop:w-full
             ' 
           id='portfolio'>
+              {/* mobile view */}
           {desktopView ? '' : 
             <div className='
               text-center font-primary text-pg-heading
@@ -48,11 +49,12 @@ const Portfolio = () => {
                 </p>
             </div>
          }
+        {/* desktop view */}
            {desktopView ? 
            <div className=''>
                <div className='
                heading bg-grey
-               text-left pl-40 pt-2 pb-52
+               text-left pl-32 pt-2 pb-52
                '>
                 <h2 className='
                   font-primary desktop:text-desktop-heading
@@ -69,7 +71,7 @@ const Portfolio = () => {
                 </div>
                 <div className='flex w-10/12 mx-auto justify-around '>
                 <div className='w-1/3 -mt-32'>
-                    {evenProjects.map((card, index) => {
+                    {oddProjects.map((card, index) => {
                             return(
                                 <div className='my-12' key={index}>
                                 <div className='
@@ -122,16 +124,16 @@ const Portfolio = () => {
                                             text-center rounded-cards font-tertiary text-dark-black py-0.5
                                             mx-2
                                             ' 
-                                            buttonText='View Resume'
-                                            url='#resume'
+                                            buttonText='View Github'
+                                            url={card.repoUrl}
                                             />
                                         <MdButton
                                             buttonClass='
                                             bg-baby-blue w-mobile-lg-button-w text-nav-menu-subheading 
                                             text-center rounded-cards font-tertiary text-dark-black py-0.5
                                             ' 
-                                            buttonText='View Resume'
-                                            url='#resume'
+                                            buttonText='View Site'
+                                            url={card.deployedUrl}
                                             />
                                         </div>
                                     </div>
@@ -141,7 +143,7 @@ const Portfolio = () => {
                     })}
                 </div>
                 <div className='w-1/3 -mt-60'>
-                    {oddProjects.map((card, index) => {
+                    {evenProjects.map((card, index) => {
                             return(
                                 <div className='my-12' key={index}>
                                 <div className='
@@ -191,16 +193,16 @@ const Portfolio = () => {
                                     text-center rounded-cards  font-tertiary text-dark-black py-0.5
                                     mx-2
                                     ' 
-                                    buttonText='View Resume'
-                                    url='#resume'
+                                    buttonText='View Github'
+                                    url={card.repoUrl}
                                     />
                                <MdButton
                                     buttonClass='
                                     bg-baby-blue w-mobile-lg-button-w text-nav-menu-subheading 
                                     text-center  rounded-cards font-tertiary text-dark-black py-0.5
                                     ' 
-                                    buttonText='View Resume'
-                                    url='#resume'
+                                    buttonText='View Site'
+                                    url={card.deployedUrl}
                                     />
                                 </div>
                                     </div>
