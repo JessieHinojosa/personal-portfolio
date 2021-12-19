@@ -36,10 +36,18 @@ module.exports = {
     'mobile-sm-button': '8px',
 
     'desktop-hero-heading': '95px',
-    'desktop-nav-heading': '24px'
+    'desktop-nav-heading': '24px',
+    'desktop-exploring': '35px',
+    'desktop-heading': '30px',
+    'desktop-paragraph': '17px',
+    'desktop-lg-paragraph': '21px',
+    'base': '16px'
+
+
    },
    borderRadius: {
     'none': '0',
+    'cards': '5px',
     'button': '10px',
     'full': '9999px',
   },
@@ -74,12 +82,12 @@ module.exports = {
         'mobile-paragraph-w': '15.125rem',
         'mobile-lg-paragraph-w': '18rem',
         'mobile-margin-from-pg-heading': '1.25rem',
-        'mobile-bg-square-h': '12.688rem',
+        'mobile-bg-square-h': '15rem',
         'mobile-bg-square-w': '8rem',
-        'mobile-lg-bg-square-h': '17rem',
+        'mobile-lg-bg-square-h': '19rem',
         'mobile-lg-bg-square-w': '12rem',
-        'mobile-bg-square-top-position': '43.5rem',
-        'mobile-lg-bg-square-top-position': '45rem',
+        'mobile-bg-square-top-position': '45rem',
+        'mobile-lg-bg-square-top-position': '46rem',
         'mobile-bg-topConnectWeb-top-position': '168rem',
         'mobile-lg-bg-topConnectWeb-top-position': '185rem',
         'mobile-bg-bottomConnectWeb-top-position': '197rem',
@@ -88,7 +96,9 @@ module.exports = {
         'mobile-lg-bg-paper-top-position': '265rem',
         "desktop-w": '32rem',
         'triangle-desktop-w': '63rem',
-        'desktop-heading-w': '40rem'
+        'desktop-heading-w': '40rem',
+        'desktop-bg-square-top': '88rem',
+        'desktop-bg-square-h': '40rem',
       },
       zIndex: {
         '-10': '-10',

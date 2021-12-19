@@ -1,12 +1,37 @@
 import React from 'react'
+import MdButton from '../components/buttons/MdButton';
 import SmButton from '../components/buttons/SmButton'
 import { ProjectData } from '../components/project-data/ProjectData'
 
 
 
 const Portfolio = () => {
+    let evenProjects;
+    let oddProjects
+    const desktopView = (() => {
+        if(window.screen.availWidth >= 1366) {
+    
+             evenProjects = ProjectData.filter(function isEven(project, index) {
+                return index % 2 === 0
+            })
+             oddProjects = ProjectData.filter(function isOdd(project, index) {
+                return index % 2 === 1
+            })
+            
+            return true
+        } else {
+            return false
+        }
+    })()
+    
     return (
-        <section className='w-mobile-paragraph-w mx-auto pt-12' id='portfolio'>
+        <section 
+          className='
+            w-mobile-paragraph-w mx-auto pt-12
+            desktop:w-full
+            ' 
+          id='portfolio'>
+          {desktopView ? '' : 
             <div className='
               text-center font-primary text-pg-heading
               mobile:text-nav-menu-heading
@@ -22,6 +47,172 @@ const Portfolio = () => {
                     my growth as a full-stack developer
                 </p>
             </div>
+         }
+           {desktopView ? 
+           <div className=''>
+               <div className='
+               heading bg-grey
+               text-left pl-40 pt-2 pb-52
+               '>
+                <h2 className='
+                  font-primary desktop:text-desktop-heading
+                '>Featured Projects</h2>
+                    <p className='
+                    font-secondary text-mobile-paragraph
+                    my-mobile-margin-from-pg-heading
+                    mobile:text-mobile-exploring-text
+                    desktop:text-pg-heading desktop:w-4/12
+                    '>
+                        Showcasing the most current projects cronologically to highlight
+                        my growth as a full-stack developer
+                    </p>
+                </div>
+                <div className='flex w-10/12 mx-auto justify-around '>
+                <div className='w-1/3 -mt-32'>
+                    {evenProjects.map((card, index) => {
+                            return(
+                                <div className='my-12' key={index}>
+                                <div className='
+                                  outer-card rounded-cards shadow-md 
+                                ' key={index} >
+                                    <div className='inner-card relative z-0 border-2 rounded-t-cards border-black'>
+                                        <img src={card.image} className='rounded-t-cards w-full' key={index} alt='application page'/>
+                                    </div>
+                                    <div className='
+                                      font-secondary -mt-2 pt-4  pb-3 bg-grey text-white
+                                      rounded-cards relative z-10 border-t-2 border-black 
+                                      
+                                    '>
+                                        <h3 className='
+                                          w-full font-primary text-nav-menu-heading text-center
+                                          
+                                        '>
+                                            {card.name}
+                                        </h3>
+                                        <p className='w-full text-nav-heading my-2 px-2'>
+                                            {card.description}
+                                        </p>
+                                        <div className='flex flex-wrap justify-between px-8 mb-3'>
+                                        <ul className='
+                                          w-2/4 list-disc text-left list-inside
+                                          text-project-detail pb-3
+                                        '>
+                                            {card.detail.map((detail, index) => {
+                                                return(
+                                                    <li key={index}>{detail}</li>
+                                                )
+                                            })}
+                                        </ul>
+                                        <ul className='
+                                          w-1/3 list-disc text-left list-inside
+                                          text-project-detail
+                                        '>
+                                        {card.tech.map((tech, index) => {
+                                                return(
+                                                    <li key={index} >{tech}</li>
+                                                )
+                                            })}
+        
+                                        </ul>
+                                    </div>
+                                    <div className='flex justify-end pr-5'>
+                                        <MdButton
+                                            buttonClass='
+                                            bg-baby-blue w-mobile-lg-button-w text-nav-menu-subheading 
+                                            text-center rounded-cards font-tertiary text-dark-black py-0.5
+                                            mx-2
+                                            ' 
+                                            buttonText='View Resume'
+                                            url='#resume'
+                                            />
+                                        <MdButton
+                                            buttonClass='
+                                            bg-baby-blue w-mobile-lg-button-w text-nav-menu-subheading 
+                                            text-center rounded-cards font-tertiary text-dark-black py-0.5
+                                            ' 
+                                            buttonText='View Resume'
+                                            url='#resume'
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            )
+                    })}
+                </div>
+                <div className='w-1/3 -mt-60'>
+                    {oddProjects.map((card, index) => {
+                            return(
+                                <div className='my-12' key={index}>
+                                <div className='
+                                  outer-card rounded-cards shadow-md 
+                                ' key={index} >
+                                    <div className='inner-card relative z-0 border-2 rounded-t-cards border-black'>
+                                        <img src={card.image} className='rounded-t-cards w-full' key={index} alt='application page'/>
+                                    </div>
+                                    <div className='
+                                      font-secondary -mt-2 pb-3 pt-4 bg-grey text-white
+                                      rounded-button relative z-10 border-t-2 border-black 
+                                      
+                                    '>
+                                        <h3 className='w-full font-primary text-nav-menu-heading text-center'>
+                                            {card.name}
+                                        </h3>
+                                        <p className='w-full text-nav-heading my-2 mx-2'>
+                                            {card.description}
+                                        </p>
+                                        <div className='flex flex-wrap justify-between px-8 mb-3'>
+                                        <ul className='
+                                          w-2/4 list-disc text-left list-inside
+                                          text-project-detail pb-3
+                                        '>
+                                            {card.detail.map((detail, index) => {
+                                                return(
+                                                    <li key={index} >{detail}</li>
+                                                )
+                                            })}
+                                        </ul>
+                                        <ul className='
+                                          w-1/3 list-disc text-left list-inside
+                                          text-project-detail 
+                                        '>
+                                        {card.tech.map((tech, index) => {
+                                                return(
+                                                    <li key={index} >{tech}</li>
+                                                )
+                                            })}
+        
+                                        </ul>
+                                        </div>
+                                <div className='flex justify-end pr-5'>
+                                <MdButton
+                                    buttonClass='
+                                    bg-baby-blue w-mobile-lg-button-w text-nav-menu-subheading 
+                                    text-center rounded-cards  font-tertiary text-dark-black py-0.5
+                                    mx-2
+                                    ' 
+                                    buttonText='View Resume'
+                                    url='#resume'
+                                    />
+                               <MdButton
+                                    buttonClass='
+                                    bg-baby-blue w-mobile-lg-button-w text-nav-menu-subheading 
+                                    text-center  rounded-cards font-tertiary text-dark-black py-0.5
+                                    ' 
+                                    buttonText='View Resume'
+                                    url='#resume'
+                                    />
+                                </div>
+                                    </div>
+                                </div>
+                            </div>
+                            )
+                    })}
+                </div>
+               </div>
+
+           </div>
+           : 
             <div className=' -mx-4 mobile:-mx-9'>
                 {ProjectData.map((card, index) => {
                     return (
@@ -95,7 +286,8 @@ const Portfolio = () => {
                 })}
                 
             </div>
-            
+          }     
+
         </section>
     )
 }

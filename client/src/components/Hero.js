@@ -5,21 +5,22 @@ import TriangleBg from '../assets/images/sm-mobile/triangle-bg.svg';
 import DesktopProfilePic from '../assets/images/desktop/profile-pic.png';
 import DesktopTriangleBg from '../assets/images/desktop/triangle.png';
 import HeroButton from './buttons/HeroButton';
+import MdButton from './buttons/MdButton';
 
 const hero = (props) => {
    return (
         <section className=''>
             <Header />
             <div className='
-               px-mobile-x-pg-padding desktop:w-3/4 desktop:flex desktop:mx-auto desktop:mt-40
-               desktop:justify-end desktop:pr-20 
+               px-mobile-x-pg-padding desktop:w-10/12 desktop:flex desktop:mx-auto desktop:mt-40
+               desktop:justify-end desktop:pr-24 
               '>
             <h1 className='
               relative z-10 mt-12
               text-center text-purp font-secondary text-hero-heading 
               mobile:text-hero-lg-heading
               desktop:text-left desktop:w-desktop-heading-w desktop:text-desktop-hero-heading
-              desktop:flex desktop:flex-wrap desktop:absolute desktop:left-80 desktop:z-20
+              desktop:flex desktop:flex-wrap desktop:absolute desktop:left-48 desktop:z-20
               '>Building Intuitive Web<br />Applications</h1>
             <img src={DesktopProfilePic} 
                  alt='full stack developer' 
@@ -39,7 +40,15 @@ const hero = (props) => {
                 </div>
             {/* desktop images */}
             </div>
-
+            <MdButton  buttonClass='
+                invisible absolute -top-10
+                bg-baby-blue text-pg-heading 
+                text-center rounded-button w-mobile-triangle-position 
+                font-tertiary text-dark-black desktop:visible left-48
+                py-1 desktop:top-mobile-lg-bg-square-top-position
+              ' 
+              buttonText='View My Work'
+              url='#portfolio' />
             <HeroButton />
         </section>
     )

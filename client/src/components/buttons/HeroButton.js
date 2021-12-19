@@ -5,7 +5,7 @@ const HeroButton = () => {
         <div className='
           w-mobile-lg-button-w py-mobile-lg-button-padding bg-baby-blue
           relative mx-auto text-center text-dark-black font-tertiary
-          text-mobile-lg-button rounded-button
+          text-mobile-lg-button rounded-button desktop:invisible
         '>
             <a href='#portfolio' >View My Work</a>
         </div>
