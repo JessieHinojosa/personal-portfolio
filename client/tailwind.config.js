@@ -42,8 +42,9 @@ module.exports = {
     'desktop-paragraph': '17px',
     'desktop-lg-paragraph': '21px',
     'base': '16px',
-    'project-detail': '15px'
-
+    'project-detail': '15px',
+    'pg-subheading': '28px'
+    
 
    },
    borderRadius: {
@@ -94,14 +95,16 @@ module.exports = {
         'mobile-bg-bottomConnectWeb-top-position': '197rem',
         'mobile-lg-bg-bottomConnectWeb-top-position': '220rem',
         'mobile-bg-paper-top-position': '245rem',
-        'mobile-lg-bg-paper-top-position': '265rem',
+        'mobile-lg-bg-paper-top-position': '260rem',
         "desktop-w": '32rem',
         'triangle-desktop-w': '63rem',
         'desktop-heading-w': '40rem',
         'desktop-bg-square-top': '88rem',
         'desktop-bg-square-h': '40rem',
         'desktop-bg-topConnectWeb-top': '270rem',
-        'desktop-bg-bottomConnectWeb-top': '300rem',
+        'desktop-bg-bottomConnectWeb-top': '295rem',
+        'desktop-bg-paper-top-position': '350rem',
+
       },
       zIndex: {
         '-10': '-10',

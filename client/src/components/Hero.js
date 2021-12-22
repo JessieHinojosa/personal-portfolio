@@ -1,7 +1,5 @@
 import React from 'react'
 import Header from './Header'
-import ProfilePic from '../assets/images/sm-mobile/profile-pic.png';
-import TriangleBg from '../assets/images/sm-mobile/triangle-bg.svg';
 import DesktopProfilePic from '../assets/images/desktop/profile-pic.png';
 import DesktopTriangleBg from '../assets/images/desktop/triangle.png';
 import HeroButton from './buttons/HeroButton';
@@ -20,22 +18,22 @@ const hero = (props) => {
               text-center text-purp font-secondary text-hero-heading 
               mobile:text-hero-lg-heading
               desktop:text-left desktop:w-desktop-heading-w desktop:text-desktop-hero-heading
-              desktop:flex desktop:flex-wrap desktop:absolute desktop:left-48 desktop:z-20
+              desktop:flex desktop:flex-wrap desktop:absolute desktop:left-48 desktop:z-20 fade fadeOut
               '>Building Intuitive Web<br />Applications</h1>
             <img src={DesktopProfilePic} 
                  alt='full stack developer' 
                  className='
                    relative w-40 mx-auto z-10  my-12 
                    desktop:my-0 desktop:mx-0
-                   desktop:w-desktop-w 
+                   desktop:w-desktop-w fade fadeOut
                   '></img>
-            <div className='w-full absolute left-0 top-mobile-triangle-position'>
+            <div className='w-full absolute left-0 top-mobile-triangle-position fade fadeOut'>
             <img src={DesktopTriangleBg} 
                  alt='background triangle' 
                  className='
                    w-72 mx-auto 
                    mobile:left-10 mobile:w-80 desktop:w-triangle-desktop-w
-                   desktop:absolute desktop:-top-10 desktop:left-1/4
+                   desktop:absolute desktop:-top-10 desktop:left-1/4 fade fadeOut
                 '></img>
                 </div>
             {/* desktop images */}
@@ -45,7 +43,7 @@ const hero = (props) => {
                 bg-baby-blue text-pg-heading 
                 text-center rounded-button w-mobile-triangle-position 
                 font-tertiary text-dark-black desktop:visible left-48
-                py-1 desktop:top-mobile-lg-bg-square-top-position
+                py-1 desktop:top-mobile-lg-bg-square-top-position fade fadeOut
               ' 
               buttonText='View My Work'
               url='#portfolio' />

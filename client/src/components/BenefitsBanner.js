@@ -8,7 +8,7 @@ const BenefitsBanner = () => {
         <section className='
            bg-grey  w-full mt-mobile-y-general-margin
            flex justify-evenly py-mobile-benefit-y-padding
-           desktop:py-mobile-nav-icon
+           desktop:py-mobile-nav-icon fade fadeOut
            '>
              <aside className='
                 w-mobile-infinity-w

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import MdButton from '../components/buttons/MdButton'
 import ExploringDivider from '../components/ExploringDivider'
 
@@ -10,13 +10,12 @@ const About = () => {
       return false
     }
   })()
-  
     return (
-        <section className='pt-12 desktop:w-10/12 desktop:mx-auto desktop:pt-28' id='about'>
+        <section className='pt-12 desktop:w-10/12 desktop:mx-auto desktop:pt-28 container' id='about'>
             <h2 className='
               text-center font-primary text-pg-heading leading-5
               mobile:text-nav-menu-heading desktop:text-left
-              desktop:text-desktop-heading desktop:leading-7
+              desktop:text-desktop-heading desktop:leading-7 fade fadeOut
             '>
                 Meet the developer<br/>
                 <span className='
@@ -29,12 +28,13 @@ const About = () => {
             <div className='
               paragraph-canvas
               desktop:flex desktop:justify-between
+              fade fadeOut
             '>
              <div className='
               about-paragraphs relative w-mobile-paragraph-w mx-auto 
               mt-mobile-margin-from-pg-heading z-10
               mobile:w-mobile-lg-paragraph-w desktop:ml-0 desktop:w-2/4 
-              desktop:pr-4 desktop:mt-14 
+              desktop:pr-4 desktop:mt-14
               '>
                 <p className='
                   font-secondary text-mobile-paragraph mb-2
@@ -115,11 +115,11 @@ const About = () => {
               mobile:top-mobile-lg-bg-square-top-position
               desktop:top-desktop-bg-square-top
               desktop:w-5/12 desktop:h-desktop-bg-square-h desktop:rounded-button
-              
+              fade fadeOut
             '>
             </div>
             {desktopView ? 
-               <div className='flex justify-between mt-20'>
+               <div className='flex justify-between mt-20 fade fadeOut'>
                  <div className=' w-2/4 pr-36'>
                   <MdButton 
                    buttonClass='
@@ -127,6 +127,7 @@ const About = () => {
                    text-center rounded-button w-mobile-bg-square-w 
                    font-tertiary text-dark-black 
                    py-1 z-10 relative mx-auto
+                   fade fadeOut
                  ' 
                  buttonText='View Resume'
                  url='#resume'/>
@@ -138,6 +139,7 @@ const About = () => {
                    text-center rounded-button w-mobile-bg-square-w 
                    font-tertiary text-dark-black  
                    py-1 z-10 relative mx-auto
+                   fade fadeOut
                  ' 
                  buttonText='Connect'
                  url='#connect'/>
@@ -149,6 +151,7 @@ const About = () => {
               buttonClass='
                 bg-baby-blue w-mobile-md-button-w text-mobile-button 
                 text-center pb-0.5 pt-1 rounded-button mx-auto mt-4 font-tertiary text-dark-black
+                fade fadeOut
               ' 
               buttonText='View Resume'
               url='#resume' />}

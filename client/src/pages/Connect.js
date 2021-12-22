@@ -33,7 +33,7 @@ const Connect = () => {
         id='connect'>
             <div className='
               text-center font-primary text-pg-heading relative z-10
-              desktop:pl-32 desktop:mx-auto desktop:text-left
+              desktop:pl-32 desktop:mx-auto desktop:text-left fade fadeOut
               '>
                 <h2 className='desktop:text-desktop-heading'>Connect with Me</h2>
                 <p className='
@@ -52,7 +52,7 @@ const Connect = () => {
                    absolute top-mobile-bg-topConnectWeb-top-position right-0
                    z-0 desktop:w-72
                    mobile:top-mobile-lg-bg-topConnectWeb-top-position
-                   desktop:top-desktop-bg-topConnectWeb-top
+                   desktop:top-desktop-bg-topConnectWeb-top fade fadeOut
             '/>
             <img src={ConnectionWeb} 
                  alt='connection web' 
@@ -60,7 +60,7 @@ const Connect = () => {
                    absolute top-mobile-bg-bottomConnectWeb-top-position left-0
                    z-0 rotate-180 desktop:w-72
                    mobile:top-mobile-lg-bg-bottomConnectWeb-top-position
-                   desktop:top-desktop-bg-bottomConnectWeb-top
+                   desktop:top-desktop-bg-bottomConnectWeb-top fade fadeOut
 
             '/>
             <div className='card-canvas'>
@@ -69,7 +69,7 @@ const Connect = () => {
               <div className='w-1/3 mt-32'>
                 {oddNetworks.map((network, index) => {
                   return (
-                    <aside className='my-7 relative z-10' key={index}>
+                    <aside className='my-7 relative fade fadeOut z-10' key={index}>
                     <img src={network.iconUrl} 
                         alt='network logo' 
                         className='rounded-full bg-white p-1 mx-auto -mb-6 relative z-20 w-16'
@@ -102,7 +102,7 @@ const Connect = () => {
               <div className='w-1/3'>
                 {evenNetworks.map((network, index) => {
                   return (
-                    <aside className='my-7 relative z-10' key={index}>
+                    <aside className='my-7 relative fade fadeOut z-10' key={index}>
                     <img src={network.iconUrl} 
                         alt='network logo' 
                         className='rounded-full bg-white p-1 mx-auto -mb-6 relative z-20 w-16'
@@ -137,7 +137,7 @@ const Connect = () => {
             <div>
               {NetworkData.map((item, index) => {
                 return (
-                      <section className='my-7 relative z-10' key={index}>
+                      <section className='my-7 relative fade fadeOut z-10' key={index}>
                         <img src={item.iconUrl} 
                             alt='network logo' 
                             className='rounded-full bg-white p-1 mx-auto -mb-6 relative z-20'

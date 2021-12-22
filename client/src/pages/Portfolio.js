@@ -36,7 +36,7 @@ const Portfolio = () => {
             <div className='
               text-center font-primary text-pg-heading
               mobile:text-nav-menu-heading
-
+              
             '>
                 <h2>Featured Projects</h2>
                 <p className='
@@ -57,13 +57,13 @@ const Portfolio = () => {
                text-left pl-32 pt-2 pb-52
                '>
                 <h2 className='
-                  font-primary desktop:text-desktop-heading
+                  font-primary desktop:text-desktop-heading fade fadeOut
                 '>Featured Projects</h2>
                     <p className='
                     font-secondary text-mobile-paragraph
                     my-mobile-margin-from-pg-heading
                     mobile:text-mobile-exploring-text
-                    desktop:text-pg-heading desktop:w-4/12
+                    desktop:text-pg-heading desktop:w-4/12 fade fadeOut
                     '>
                         Showcasing the most current projects cronologically to highlight
                         my growth as a full-stack developer
@@ -73,7 +73,7 @@ const Portfolio = () => {
                 <div className='w-1/3 -mt-32'>
                     {oddProjects.map((card, index) => {
                             return(
-                                <div className='my-12' key={index}>
+                                <div className='my-12 fade fadeOut' key={index}>
                                 <div className='
                                   outer-card rounded-cards shadow-md 
                                 ' key={index} >
@@ -145,7 +145,7 @@ const Portfolio = () => {
                 <div className='w-1/3 -mt-60'>
                     {evenProjects.map((card, index) => {
                             return(
-                                <div className='my-12' key={index}>
+                                <div className='my-12 fade fadeOut' key={index}>
                                 <div className='
                                   outer-card rounded-cards shadow-md 
                                 ' key={index} >
@@ -218,7 +218,7 @@ const Portfolio = () => {
             <div className=' -mx-4 mobile:-mx-9'>
                 {ProjectData.map((card, index) => {
                     return (
-                     <div className='mb-6' key={index}>
+                     <div className='mb-6 fade fadeOut' key={index}>
                         <div className='
                           outer-card rounded-button shadow-md
                         ' key={index} >

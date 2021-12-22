@@ -4,7 +4,7 @@ const ExploringDivider = () => {
     return (
         <aside className='
           h-32 mt-20 mb-8 bg-polygonLgBg bg-contain bg-center bg-no-repeat
-          desktop:h-72 desktop:pt-10 desktop:my-60
+          desktop:h-72 desktop:pt-10 desktop:my-60 fade fadeOut
         '>
         
           <h3 className='
