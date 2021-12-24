@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './Header'
-import DesktopProfilePic from '../assets/images/desktop/profile-pic.png';
+import DesktopProfilePic from '../assets/images/desktop/greyProfilePic3.jpeg';
 import DesktopTriangleBg from '../assets/images/desktop/triangle.png';
 import HeroButton from './buttons/HeroButton';
 import MdButton from './buttons/MdButton';
@@ -24,7 +24,7 @@ const hero = (props) => {
                  alt='full stack developer' 
                  className='
                    relative w-40 mx-auto z-10  my-12 
-                   desktop:my-0 desktop:mx-0
+                   desktop:my-0 desktop:mx-0 rounded-cards
                    desktop:w-desktop-w fade fadeOut
                   '></img>
             <div className='w-full absolute left-0 top-mobile-triangle-position fade fadeOut'>

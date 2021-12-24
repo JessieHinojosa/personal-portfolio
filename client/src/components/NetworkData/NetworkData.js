@@ -32,8 +32,8 @@ export const NetworkData = [
     },
     {
         name: 'Discord',
-        username: 'Jay Maverick#2682',
-        src: 'https://discord.com/channels/@mJay Maverick#2682',
+        username: 'Jay-Maverick#2682',
+        src: 'https://discord.com/channels/@Jay-Maverick#2682',
         iconUrl: discordIcon,
     },
 
