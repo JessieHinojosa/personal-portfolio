@@ -1,4 +1,4 @@
-import react, {useEffect} from 'react';
+import {useEffect} from 'react';
 import Footer from './components/Footer';
 import About from "./pages/About";
 import Connect from "./pages/Connect";
