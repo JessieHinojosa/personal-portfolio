@@ -1,8 +1,8 @@
 {
-  "name": "client",
+  "name": "personal-portfolio",
   "version": "0.1.0",
-  "homepage": "http://jayMaverick.github.io/personal-portfolio",
-  "private": true,
+  "homepage": "http://jayMaverick.github.io/personal-portfolio/",
+  "private": false,
   "dependencies": {
     "@craco/craco": "^6.4.2",
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
