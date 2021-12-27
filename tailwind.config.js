@@ -8,6 +8,7 @@ module.exports = {
       'tablet': '522px',
       'laptop': '1024px',
       'desktop': '1366px',
+      'lgDesktop': '1612px',
     },
    boxShadow: {
     sm: '0 1px 2px 0 rgba(0, 0, 0, 0.05)',

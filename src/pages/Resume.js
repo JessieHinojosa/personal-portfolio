@@ -42,7 +42,7 @@ const Resume = () => {
                     Summary
                 </h3>
                 <p className='
-                  font-secondary text-mobile-button
+                  font-secondary text-nav-menu-subheading
                   mobile:text-mobile-exploring-text
                   desktop:text-desktop-paragraph
                   
@@ -63,6 +63,7 @@ const Resume = () => {
               text-center
               desktop:w-10/12 desktop:mx-auto
               desktop:px-8 desktop:mt-10 fade fadeOut
+              relative z-20
             '>
                 <h3 className='
                   font-primary mobile-lg-button my-3
@@ -80,7 +81,7 @@ const Resume = () => {
 
                 '>Languages</h4>
                 <p className='
-                  text-mobile-button font-secondary mb-2
+                  text-nav-menu-subheading font-secondary mb-2
                   mobile:text-mobile-exploring-text
                   desktop:text-desktop-paragraph
                   
@@ -95,7 +96,7 @@ const Resume = () => {
 
                   '>Frameworks</h4>
                 <p className='
-                  text-mobile-button font-secondary mb-2
+                  text-nav-menu-subheading font-secondary mb-2
                   mobile:text-mobile-exploring-text
                   desktop:text-desktop-paragraph
                   
@@ -110,7 +111,7 @@ const Resume = () => {
 
                   '>Libraries</h4>
                 <p className='
-                  text-mobile-button font-secondary mb-2
+                  text-nav-menu-subheading font-secondary mb-2
                   mobile:text-mobile-exploring-text
                   desktop:text-desktop-paragraph
                   
@@ -125,9 +126,10 @@ const Resume = () => {
 
                   '>Other</h4>
                 <p className='
-                  text-mobile-button font-secondary
+                  text-nav-menu-subheading font-secondary
                   mobile:text-mobile-exploring-text
                   desktop:text-desktop-paragraph
+                  
                   
 
                 '>Node.js, MongoDB, Sequelize</p>
@@ -149,14 +151,14 @@ const Resume = () => {
                   desktop:px-8
                 '>
                   <h4 className='
-                    text-mobile-button font-primary
+                    text-nav-menu-subheading font-primary
                     mobile:text-mobile-exploring-text
                     desktop:text-desktop-paragraph
                     
   
                   '>US Water Services Corporation</h4>
                   <h4 className='
-                    text-mobile-button font-primary
+                    text-nav-menu-subheading font-primary
                     mobile:text-mobile-exploring-text
                     desktop:text-desktop-paragraph
                     
@@ -168,13 +170,13 @@ const Resume = () => {
                   desktop:px-8
                 '>
                   <h4 className='
-                    text-mobile-button font-primary
+                    text-nav-menu-subheading font-primary
                     desktop:text-desktop-paragraph
                     
   
                     '>Wastewater Plant Operation</h4>
                   <h4 className='
-                    text-mobile-button font-primary
+                    text-nav-menu-subheading font-primary
                     desktop:text-desktop-paragraph
                     
   
@@ -200,13 +202,13 @@ const Resume = () => {
                   desktop:px-8
                 '>
                   <h4 className='
-                    text-mobile-button font-primary
+                    text-nav-menu-subheading font-primary
                     mobile:text-mobile-exploring-text
                     desktop:text-desktop-paragraph
   
                 '>Triangle House LLC</h4>
                   <h4 className='
-                    text-mobile-button font-primary
+                    text-nav-menu-subheading font-primary
                     mobile:text-mobile-exploring-text
                     desktop:text-desktop-paragraph
                    
@@ -218,11 +220,11 @@ const Resume = () => {
                   desktop:px-8
                 '>
                   <h4 className='
-                    text-mobile-button font-primary
+                    text-nav-menu-subheading font-primary
                     desktop:text-desktop-paragraph
                   '>Assembly Line Technician </h4>
                   <h4 className='
-                    text-mobile-button font-primary
+                    text-nav-menu-subheading font-primary
                     desktop:text-desktop-paragraph  
                     '>Brooksville, FL</h4>
                 </div>
@@ -240,12 +242,12 @@ const Resume = () => {
                 </div>
                 <div className='flex justify-between desktop:px-8'>
                   <h4 className='
-                    text-mobile-button font-primary
+                    text-nav-menu-subheading font-primary
                     mobile:text-mobile-exploring-text
                     desktop:text-desktop-paragraph
                 '>State of Florida</h4>
                   <h4 className='
-                    text-mobile-button font-primary
+                    text-nav-menu-subheading font-primary
                     mobile:text-mobile-exploring-text
                     desktop:text-desktop-paragraph
                     
@@ -257,12 +259,12 @@ const Resume = () => {
                   desktop:px-8
                 '>
                   <h4 className='
-                    text-mobile-button font-primary
+                    text-nav-menu-subheading font-primary
                     desktop:text-desktop-paragraph
                     
                   '>GED Tutor </h4>
                   <h4 className='
-                    text-mobile-button font-primary
+                    text-nav-menu-subheading font-primary
                     desktop:text-desktop-paragraph
                     '>Wakulla, FL</h4>
                 </div>
