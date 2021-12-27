@@ -4,13 +4,14 @@ import BackgroundPaper from '../assets/images/sm-mobile/background-paper.png'
 const Resume = () => {
     return (
         <section className='
-          py-12 w-mobile-paragraph-w mx-auto
+          py-12 w-11/12 mx-auto
           mobile:w-mobile-lg-paragraph-w
           desktop:w-full desktop:mt-32
           ' 
           id='resume'>
             <div className='
               desktop:pl-32 fade fadeOut
+              desktop:mb-20
               '>
                 <h2 className='
                   text-center font-primary text-pg-heading
@@ -19,10 +20,10 @@ const Resume = () => {
                   
                 '>Qualifications</h2>
                 <p className='
-                text-secondary text-mobile-paragraph text-center 
+                font-secondary text-mobile-exploring-text text-center w-10/12 mx-auto
                 my-mobile-margin-from-pg-heading
                 mobile:text-mobile-exploring-text
-                desktop:text-left desktop:text-pg-heading desktop:w-4/12
+                desktop:text-left desktop:text-pg-heading desktop:w-4/12 desktop:mx-0
                 '>
                     I believe all experience is relavent and valuable. 
                     As I build my resume, I hope that I continually add 
@@ -183,7 +184,7 @@ const Resume = () => {
                     '>Crystal River, FL</h4>
                 </div>
                 <div className='
-                  text-mobile-paragraph font-secondary text-center my-1
+                  text-mobile-exploring-text font-secondary text-center my-1
                   desktop:text-desktop-paragraph
                   desktop:px-20
 
@@ -229,7 +230,7 @@ const Resume = () => {
                     '>Brooksville, FL</h4>
                 </div>
                 <div className='
-                  text-mobile-paragraph font-secondary text-center my-1
+                  text-mobile-exploring-text font-secondary text-center my-1
                   desktop:text-desktop-paragraph
                   desktop:px-20
                   '>
@@ -269,7 +270,7 @@ const Resume = () => {
                     '>Wakulla, FL</h4>
                 </div>
                 <div className='
-                  text-mobile-paragraph font-secondary text-center my-1
+                  text-mobile-exploring-text font-secondary text-center my-1
                   desktop:text-desktop-paragraph desktop:px-20
                   '>
                     <p>
@@ -292,12 +293,12 @@ const Resume = () => {
                     Education
                 </h3>
                 <p className='
-                  text-mobile-paragraph font-secondary text-center
+                  text-mobile-exploring-text font-secondary text-center
                   mobile:text-mobile-exploring-text
                   desktop:text-desktop-paragraph
                 '>UCF Coding Bootcamp</p>
                 <p className='
-                  text-mobile-paragraph font-secondary text-center
+                  text-mobile-exploring-text font-secondary text-center
                   mobile:text-mobile-exploring-text
                   desktop:text-desktop-paragraph
                 '>University of Central Florida, Orlando, FL</p>
