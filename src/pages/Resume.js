@@ -25,14 +25,14 @@ const Resume = () => {
                 mobile:text-mobile-exploring-text
                 desktop:text-left desktop:text-pg-heading desktop:w-4/12 desktop:mx-0
                 '>
-                    I believe all experience is relavent and valuable. 
-                    As I build my resume, I hope that I continually add 
+                    I believe all experience is relevant and valuable. 
+                    As I build my resume, I hope that I continuously add 
                     value to society in all forms.  
                 </p>
             </div>
             <div className='
               text-center
-              desktop:w-10/12 desktop:mx-auto
+              desktop:w-9/12 desktop:mx-auto
               desktop:px-8 desktop:mt-10 fade fadeOut
             '>
                 <h3 className='
@@ -56,7 +56,7 @@ const Resume = () => {
                    allowed skill development in JavaScript, CSS, React, GraphQL, MySQL, and 
                    other full-stack technologies. Mobile-First design along with Agile and 
                    Test Driven Development ensures a cohesive environment. Eager to hone 
-                   and develop skills to continually learn and engage in a fast-paced 
+                   and develop skills to continuously learn and engage in a fast-paced 
                    environment with constant challenges. 
                 </p>
             </div>
@@ -137,7 +137,7 @@ const Resume = () => {
             </div>
             <div className='
               relative z-10
-              desktop:w-10/12 desktop:mx-auto
+              desktop:w-9/12 desktop:mx-auto
               desktop:mt-10 fade fadeOut
             '>
                 <h3 className='

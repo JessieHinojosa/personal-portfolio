@@ -44,7 +44,7 @@ const Portfolio = () => {
                   my-mobile-margin-from-pg-heading
                   mobile:text-mobile-exploring-text
                 '>
-                    Showcasing the most current projects cronologically to highlight
+                    Showcasing the most current projects chronologically to highlight
                     my growth as a full-stack developer
                 </p>
             </div>

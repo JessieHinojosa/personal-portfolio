@@ -44,7 +44,8 @@ module.exports = {
     'desktop-lg-paragraph': '21px',
     'base': '16px',
     'project-detail': '15px',
-    'pg-subheading': '28px'
+    'pg-subheading': '28px',
+    'desktop-exploring-cat': '26px'
     
 
    },

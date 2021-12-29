@@ -14,10 +14,10 @@ const ExploringDivider = () => {
           <div className='flex justify-evenly mt-2'>
               <ul className='
                 font-secondary text-center text-mobile-exploring-text ml-2 relative z-10
-                desktop:text-mobile-lg-button
+                desktop:text-pg-heading
                 '>
                   <li className='
-                    font-primary text-nav-menu-subheading desktop:text-pg-heading
+                    font-primary text-nav-menu-subheading desktop:text-desktop-exploring-cat
                     '>Front-End</li>
                   <li>Tailwind CSS</li>
                   <li>TypeScript</li>
@@ -25,15 +25,15 @@ const ExploringDivider = () => {
               </ul>
               <p className='
                 font-secondary text-nav-menu-subheading py-4 relative z-10
-                desktop:text-pg-heading desktop:py-8
+                desktop:text-desktop-exploring-cat desktop:py-8
                 '>{"<Express>"}</p>
               <ul className='
                 font-secondary text-center text-mobile-exploring-text mr-2 relative z-10
-                desktop:text-mobile-lg-button
+                desktop:text-pg-heading
                 '>
                   <li className='
                     font-primary text-nav-menu-subheading
-                    desktop:text-pg-heading
+                    desktop:text-desktop-exploring-cat
                     '>Back-End</li>
                   <li>MongoDB</li>
                   <li>Node.js</li>

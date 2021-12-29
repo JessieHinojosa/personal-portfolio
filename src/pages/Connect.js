@@ -41,7 +41,7 @@ const Connect = () => {
                   my-mobile-margin-from-pg-heading
                   desktop:text-pg-heading desktop:w-4/12
                 '>
-                    Wheather you are looking for a potintial employee, contract developer or 
+                    Whether you are looking for a potential employee, contract developer or 
                     someone to share thoughts with, you can connect with me through any of 
                     the following channels.
                 </p>
