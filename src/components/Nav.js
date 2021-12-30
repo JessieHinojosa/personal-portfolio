@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
+import logo from '../assets/images/icons/smDesktop/portfolio-logo.png'
+
 
 const Nav = () => {
     const [toggleMenu, setToggleMenu] = useState(false)
@@ -17,6 +19,8 @@ const Nav = () => {
         }}
       >
         <div className='mt-12'>
+        <img src={logo} alt='brand logo' className='w-16 mx-auto mb-5 border border-dark-black rounded-cards'></img>
+
         <h2 className='
             font-primary text-nav-menu-heading
             mobile:text-nav-menu-lg-heading
@@ -26,12 +30,12 @@ const Nav = () => {
            mobile:text-mobile-lg-button
         '>Full-Stack Developer</h3>
         <ul className='
-          mt-8 text-left font-secondary 
+          mt-12 text-left font-secondary 
           mobile:text-nav-heading
         '>
             <li><a href='#about'>Background</a></li>
-            <li><a href='#portfolio'>Projects</a></li>
-            <li><a href='#connect'>Connect</a></li>
+            <li className='my-2'><a href='#portfolio'>Projects</a></li>
+            <li className='mb-2'><a href='#connect'>Connect</a></li>
             <li><a href='#resume'>Qualifications</a></li>
         </ul>
         </div>
