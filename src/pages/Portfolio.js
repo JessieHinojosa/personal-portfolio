@@ -78,7 +78,7 @@ const Portfolio = () => {
                                   outer-card rounded-cards shadow-md 
                                 ' key={index} >
                                     <div className='inner-card relative z-0 border-2 rounded-t-cards border-black'>
-                                        <img src={card.image} className='rounded-t-cards w-full' key={index} alt='application page'/>
+                                        <img src={card.desktopImage} className='rounded-t-cards w-full' key={index} alt='application page'/>
                                     </div>
                                     <div className='
                                       font-secondary -mt-2 pt-4  pb-3 bg-grey text-white
@@ -150,7 +150,7 @@ const Portfolio = () => {
                                   outer-card rounded-cards shadow-md 
                                 ' key={index} >
                                     <div className='inner-card relative z-0 border-2 rounded-t-cards border-black'>
-                                        <img src={card.image} className='rounded-t-cards w-full' key={index} alt='application page'/>
+                                        <img src={card.desktopImage} className='rounded-t-cards w-full' key={index} alt='application page'/>
                                     </div>
                                     <div className='
                                       font-secondary -mt-2 pb-3 pt-4 bg-grey text-white
@@ -160,7 +160,7 @@ const Portfolio = () => {
                                         <h3 className='w-full font-primary text-nav-menu-heading text-center'>
                                             {card.name}
                                         </h3>
-                                        <p className='w-full text-nav-heading my-2 mx-2'>
+                                        <p className='w-full text-nav-heading my-2 mx-2 px-2'>
                                             {card.description}
                                         </p>
                                         <div className='flex flex-wrap justify-between px-8 mb-3'>

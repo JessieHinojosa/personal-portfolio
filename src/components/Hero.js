@@ -25,7 +25,7 @@ const hero = (props) => {
                  className='
                    relative w-40 mx-auto z-10  my-12 
                    desktop:my-0 desktop:mx-0 rounded-cards
-                   desktop:w-desktop-w fade fadeOut
+                   desktop:w-desktop-w fade fadeOut shadow-lg
                   '></img>
             <div className='w-full absolute left-0 top-mobile-triangle-position fade fadeOut'>
             <img src={DesktopTriangleBg} 
