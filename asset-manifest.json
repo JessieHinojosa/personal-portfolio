@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.67a083c0.chunk.css",
-    "main.js": "/personal-portfolio/static/js/main.841843f5.chunk.js",
-    "main.js.map": "/personal-portfolio/static/js/main.841843f5.chunk.js.map",
+    "main.css": "/personal-portfolio/static/css/main.ac74c543.chunk.css",
+    "main.js": "/personal-portfolio/static/js/main.7593323d.chunk.js",
+    "main.js.map": "/personal-portfolio/static/js/main.7593323d.chunk.js.map",
     "runtime-main.js": "/personal-portfolio/static/js/runtime-main.2b1a02d4.js",
     "runtime-main.js.map": "/personal-portfolio/static/js/runtime-main.2b1a02d4.js.map",
     "static/js/2.4fbd4312.chunk.js": "/personal-portfolio/static/js/2.4fbd4312.chunk.js",
@@ -10,19 +10,23 @@
     "static/js/3.f725daf0.chunk.js": "/personal-portfolio/static/js/3.f725daf0.chunk.js",
     "static/js/3.f725daf0.chunk.js.map": "/personal-portfolio/static/js/3.f725daf0.chunk.js.map",
     "index.html": "/personal-portfolio/index.html",
-    "static/css/main.67a083c0.chunk.css.map": "/personal-portfolio/static/css/main.67a083c0.chunk.css.map",
+    "static/css/main.ac74c543.chunk.css.map": "/personal-portfolio/static/css/main.ac74c543.chunk.css.map",
     "static/js/2.4fbd4312.chunk.js.LICENSE.txt": "/personal-portfolio/static/js/2.4fbd4312.chunk.js.LICENSE.txt",
+    "static/media/botanist-desktop.8957669f.png": "/personal-portfolio/static/media/botanist-desktop.8957669f.png",
     "static/media/botanist_screenshot.e148089b.png": "/personal-portfolio/static/media/botanist_screenshot.e148089b.png",
     "static/media/greyProfilePic3.463050a1.jpeg": "/personal-portfolio/static/media/greyProfilePic3.463050a1.jpeg",
+    "static/media/helpers-desktop.1a72e2d7.png": "/personal-portfolio/static/media/helpers-desktop.1a72e2d7.png",
     "static/media/index.css": "/personal-portfolio/static/media/lg-polygon.eb982938.svg",
+    "static/media/shop-desktop.b6c55619.png": "/personal-portfolio/static/media/shop-desktop.b6c55619.png",
     "static/media/shop-shop.69632e6e.png": "/personal-portfolio/static/media/shop-shop.69632e6e.png",
     "static/media/tech-wiz.8bc97ca0.png": "/personal-portfolio/static/media/tech-wiz.8bc97ca0.png",
-    "static/media/triangle.c598cbb2.png": "/personal-portfolio/static/media/triangle.c598cbb2.png"
+    "static/media/triangle.c598cbb2.png": "/personal-portfolio/static/media/triangle.c598cbb2.png",
+    "static/media/wiz-desktop.feedb14a.png": "/personal-portfolio/static/media/wiz-desktop.feedb14a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2b1a02d4.js",
     "static/js/2.4fbd4312.chunk.js",
-    "static/css/main.67a083c0.chunk.css",
-    "static/js/main.841843f5.chunk.js"
+    "static/css/main.ac74c543.chunk.css",
+    "static/js/main.7593323d.chunk.js"
   ]
 }
