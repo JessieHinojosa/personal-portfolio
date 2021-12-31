@@ -45,7 +45,8 @@ const Portfolio = () => {
                   mobile:text-mobile-exploring-text
                 '>
                     Showcasing the most current projects chronologically to highlight
-                    my growth as a full-stack developer
+                    my growth as a full-stack developer. Currently, all projects are for practice only, not for commercial use.
+
                 </p>
             </div>
          }
@@ -66,7 +67,8 @@ const Portfolio = () => {
                     desktop:text-pg-heading desktop:w-4/12 fade fadeOut
                     '>
                         Showcasing the most current projects cronologically to highlight
-                        my growth as a full-stack developer
+                        my growth as a full-stack developer. Currently, all projects are for practice only, not for commercial use.
+
                     </p>
                 </div>
                 <div className='flex w-10/12 mx-auto justify-around '>
