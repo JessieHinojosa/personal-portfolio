@@ -1,7 +1,7 @@
 {
   "name": "personal-portfolio",
   "version": "0.1.0",
-  "homepage": "http://jayMaverick.github.io/personal-portfolio/",
+  "homepage": "https://jessie-hinojosa.dev",
   "private": false,
   "dependencies": {
     "@craco/craco": "^6.4.2",
