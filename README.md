@@ -11,6 +11,17 @@
 * [Description](#description)
 * [Built With](#built-with)
 * [Usage](#usage)
-* [Contributing](#contributing)
 
-![The-Botanist preview](https://github.com/jayMaverick/personal-portfolio/blob/main/src/assets/images/portfolio-screenshot.png?raw=true)
+![Portfolio preview](https://github.com/jayMaverick/personal-portfolio/blob/main/src/assets/images/portfolio-screenshot.png?raw=true)
+
+## Description 
+personal-portfolio is a react website that demonstrates and exemplifies the skills of a full-stack developer to gain interests from any potential employer or client for freelance work.
+
+## Built With
+* React 
+* Tailwind CSS
+
+## Usage
+1. Navigate to the site [here](https://jessie-hinojosa.dev/)
+2. View work and get to know the developer
+3. Connect with developer through networking channels
