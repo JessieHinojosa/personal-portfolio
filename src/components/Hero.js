@@ -11,14 +11,14 @@ const hero = (props) => {
             <Header />
             <div className='
                px-mobile-x-pg-padding desktop:w-10/12 desktop:flex desktop:mx-auto desktop:mt-40
-               desktop:justify-end desktop:pr-24 
+               desktop:justify-end desktop:px-48 
               '>
             <h1 className='
               relative z-10 mt-12
               text-center text-purp font-secondary text-hero-heading 
               mobile:text-hero-lg-heading
               desktop:text-left desktop:w-desktop-heading-w desktop:text-desktop-hero-heading
-              desktop:flex desktop:flex-wrap desktop:absolute desktop:left-48 desktop:z-20 fade fadeOut
+              desktop:flex desktop:flex-wrap desktop:absolute desktop:left-52 desktop:pl-16 desktop:z-20 fade fadeOut
               '>Building Intuitive Web<br />Applications</h1>
             <img src={DesktopProfilePic} 
                  alt='full stack developer' 
@@ -42,7 +42,7 @@ const hero = (props) => {
                 invisible absolute -top-10
                 bg-baby-blue text-pg-heading 
                 text-center rounded-button w-mobile-triangle-position 
-                font-tertiary text-dark-black desktop:visible left-48
+                font-tertiary text-dark-black desktop:visible desktop:left-52 desktop:ml-16
                 py-1 desktop:top-mobile-lg-bg-square-top-position fade fadeOut
               ' 
               buttonText='View My Work'
