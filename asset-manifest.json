@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.bee3eab6.chunk.css",
-    "main.js": "/static/js/main.b30d050f.chunk.js",
-    "main.js.map": "/static/js/main.b30d050f.chunk.js.map",
+    "main.css": "/static/css/main.0179e19a.chunk.css",
+    "main.js": "/static/js/main.002a916d.chunk.js",
+    "main.js.map": "/static/js/main.002a916d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.84562c53.js",
     "runtime-main.js.map": "/static/js/runtime-main.84562c53.js.map",
     "static/js/2.4fbd4312.chunk.js": "/static/js/2.4fbd4312.chunk.js",
@@ -10,23 +10,23 @@
     "static/js/3.f725daf0.chunk.js": "/static/js/3.f725daf0.chunk.js",
     "static/js/3.f725daf0.chunk.js.map": "/static/js/3.f725daf0.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.bee3eab6.chunk.css.map": "/static/css/main.bee3eab6.chunk.css.map",
+    "static/css/main.0179e19a.chunk.css.map": "/static/css/main.0179e19a.chunk.css.map",
     "static/js/2.4fbd4312.chunk.js.LICENSE.txt": "/static/js/2.4fbd4312.chunk.js.LICENSE.txt",
     "static/media/botanist-desktop.8957669f.png": "/static/media/botanist-desktop.8957669f.png",
     "static/media/botanist_screenshot.e148089b.png": "/static/media/botanist_screenshot.e148089b.png",
     "static/media/greyProfilePic3.463050a1.jpeg": "/static/media/greyProfilePic3.463050a1.jpeg",
     "static/media/helpers-desktop.1a72e2d7.png": "/static/media/helpers-desktop.1a72e2d7.png",
-    "static/media/index.css": "/static/media/lg-polygon.eb982938.svg",
+    "static/media/index.css": "/static/media/lg-polygon.86414e19.svg",
     "static/media/shop-desktop.b6c55619.png": "/static/media/shop-desktop.b6c55619.png",
     "static/media/shop-shop.69632e6e.png": "/static/media/shop-shop.69632e6e.png",
     "static/media/tech-wiz.8bc97ca0.png": "/static/media/tech-wiz.8bc97ca0.png",
-    "static/media/triangle.c598cbb2.png": "/static/media/triangle.c598cbb2.png",
+    "static/media/triangle.65759208.png": "/static/media/triangle.65759208.png",
     "static/media/wiz-desktop.feedb14a.png": "/static/media/wiz-desktop.feedb14a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.84562c53.js",
     "static/js/2.4fbd4312.chunk.js",
-    "static/css/main.bee3eab6.chunk.css",
-    "static/js/main.b30d050f.chunk.js"
+    "static/css/main.0179e19a.chunk.css",
+    "static/js/main.002a916d.chunk.js"
   ]
 }
