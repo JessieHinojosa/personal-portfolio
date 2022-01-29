@@ -76,7 +76,7 @@ const Connect = () => {
                         />
                     <div className='
                       flex flex-wrap justify-center pb-2 pt-7 
-                      shadow-md rounded-cards bg-black 
+                      shadow-lg rounded-cards bg-grey 
                       border border-dark-black
                       
                     '>
@@ -109,7 +109,7 @@ const Connect = () => {
                         />
                     <div className='
                       flex flex-wrap justify-center pb-2 pt-7 
-                      shadow-md rounded-button bg-black
+                      shadow-lg rounded-button bg-grey
                       border border-dark-black
                     '>
                       <p className='
@@ -144,7 +144,7 @@ const Connect = () => {
                             />
                         <div className='
                           flex flex-wrap justify-center pb-2 pt-7 
-                          shadow-md rounded-button bg-black
+                          shadow-lg rounded-button bg-black
                           
                         '>
                           <p className='

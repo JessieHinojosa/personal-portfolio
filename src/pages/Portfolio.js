@@ -77,7 +77,7 @@ const Portfolio = () => {
                             return(
                                 <div className='my-12 fade fadeOut' key={index}>
                                 <div className='
-                                  outer-card rounded-cards shadow-md 
+                                  outer-card rounded-cards shadow-lg 
                                 ' key={index} >
                                     <div className='inner-card relative z-0 border-2 rounded-t-cards border-black'>
                                         <img src={card.desktopImage} className='rounded-t-cards w-full' key={index} alt='application page'/>
@@ -149,7 +149,7 @@ const Portfolio = () => {
                             return(
                                 <div className='my-12 fade fadeOut' key={index}>
                                 <div className='
-                                  outer-card rounded-cards shadow-md 
+                                  outer-card rounded-cards shadow-lg 
                                 ' key={index} >
                                     <div className='inner-card relative z-0 border-2 rounded-t-cards border-black'>
                                         <img src={card.desktopImage} className='rounded-t-cards w-full' key={index} alt='application page'/>
@@ -222,7 +222,7 @@ const Portfolio = () => {
                     return (
                      <div className='mb-6 fade fadeOut' key={index}>
                         <div className='
-                          outer-card rounded-button shadow-md
+                          outer-card rounded-button shadow-lg
                         ' key={index} >
                             <div className='inner-card relative z-0 border-2 rounded-t-button border-dark-black'>
                                 <img src={card.image} className='rounded-t-button w-full' key={index} alt='application page'/>

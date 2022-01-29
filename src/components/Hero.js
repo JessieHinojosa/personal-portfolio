@@ -23,7 +23,7 @@ const hero = (props) => {
             <img src={DesktopProfilePic} 
                  alt='full stack developer' 
                  className='
-                   relative w-40 mx-auto z-10  my-12 
+                   relative w-40 mx-auto z-10 my-12 
                    desktop:my-0 desktop:mx-0 rounded-cards
                    desktop:w-desktop-w fade fadeOut shadow-lg
                   '></img>
